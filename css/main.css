@@ -113,6 +113,23 @@ padding para que em visores menores, o conteudo nao encoste nas bordas
     background-color: var(--azul-escuro);
 }
 
+tbody button {
+    font-family: poppins;
+    padding: 2px;
+    background:#e0dede;
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    width: 55px;
+    height: 30px;
+    transition: .3s ease-in-out;
+}
+
+tbody button:hover {
+    background: var(--danger);
+    color: var(--bg);
+}
+
 #tabela-cadastro {
     width: 100%;
     max-width: 800px;
